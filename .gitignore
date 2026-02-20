@@ -1,0 +1,30 @@
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Python bytecode / caches / build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+.env/        # common name for virtualenv directory
+.venv/
+env/
+ENV/
+.Python
+
+# Ruff cache
+.ruff_cache/
+
+# Optional: keep local env files out of repo
+.env
